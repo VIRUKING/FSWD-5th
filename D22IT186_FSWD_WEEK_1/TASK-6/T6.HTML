@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <SCript>
+        function scopeWithVar() {
+            var myVariable = "Hey";
+        }
+
+        scopeWithVar();
+        console.log(myVariable);
+        function scopeWithLet() {
+            let myVariable = "Hey";
+        }
+
+        scopeWithLet();
+        console.log(myVariable); 
+        function scopeWithConst() {
+            const myVariable = "Hey";
+        }
+
+        scopeWithConst();
+        console.log(myVariable); 
+
+    </SCript>
+</body>
+
+</html>
